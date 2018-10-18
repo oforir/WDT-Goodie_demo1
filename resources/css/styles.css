@@ -1,0 +1,46 @@
+
+/* Universal styles */
+
+html {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Fonts used by Simple Feast = maison (1.255em) | Grubhub = graphik (14px) */
+
+/* General styles */
+
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header styles */
+
+header {
+  align-items: center;
+  background: #3fa435;
+  color: white;
+  font-size: 1.25rem;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding: 1rem;
+  height: 3rem;
+  width: 100%;
+}
+
+.header-large-center img {
+  height: 4rem;
+  justify-content: center;
+}
+
+.header-large-right img {
+  justify-content: flex-end;
+  align-items: center;
+  height: 2rem;
+}
