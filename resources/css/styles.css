@@ -12,7 +12,7 @@ html {
 /* General styles */
 
 .main-container {
-  width: 960px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -22,25 +22,31 @@ html {
 
 /* Header styles */
 
-header {
-  align-items: center;
+.header {
   background: #3fa435;
   color: white;
-  font-size: 1.25rem;
+  padding: 1.5rem;
+  height: 4rem;
+  justify-content: space-between;
   font-variant: small-caps;
   font-weight: bold;
-  padding: 1rem;
-  height: 3rem;
-  width: 100%;
 }
 
-.header-large-center img {
-  height: 4rem;
-  justify-content: center;
-}
-
-.header-large-right img {
-  justify-content: flex-end;
+.menu {
+  display: flex;
+  justify-content: ;
   align-items: center;
-  height: 2rem;
+}
+
+.menu a {
+  padding: 1rem;
+  color: white;
+}
+
+.menu img.logo {
+  height: 5rem
+}
+
+.menu img {
+  height: 3rem;
 }
