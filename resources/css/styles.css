@@ -105,3 +105,21 @@ h3 {
 .cta.shop1 {
   margin-top: 1rem;
 }
+
+/* Quotes section styles */
+
+.quotes {
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+}
+
+.quote img {
+  width: 5rem;
+}
