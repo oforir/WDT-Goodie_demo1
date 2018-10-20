@@ -2,7 +2,7 @@
 /* Universal styles */
 
 html {
-  font-family: Helvetica;
+  font-family: "Verdana";
   font-size: 16px;
   line-height: 1.4;
 }
@@ -20,12 +20,34 @@ html {
   display: flex;
 }
 
+h1 {
+  font-size: 2.45rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.55rem;
+}
+
+.cta {
+  display: ;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem;
+  padding: 0.75rem;
+  background-color: #3fa435;
+  text-align: center;
+  font-variant: ;
+  font-size: 1.25rem;
+  padding: auto 0;
+  font-weight: bolder;
+}
+
 /* Header styles */
 
 .header {
-  background: #3fa435;
-  color: white;
-  padding: 1.5rem;
+  background: white;
+  padding: 1.5rem 0;
   height: 4rem;
   justify-content: space-between;
   font-variant: small-caps;
@@ -36,17 +58,50 @@ html {
   display: flex;
   justify-content: ;
   align-items: center;
+  position: relative;
 }
 
 .menu a {
   padding: 1rem;
-  color: white;
+  color: black;
+  text-decoration: none;
 }
 
 .menu img.logo {
-  height: 5rem
+  height: 7rem;
 }
 
 .menu img {
-  height: 3rem;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+/* Banner styles */
+
+.banner {
+  background-image: url(../images/stock_images/banner_v1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  height: 40rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 22rem;
+}
+
+.text-block {
+  margin: ;
+  background-color: ;
+  line-height: 1.2;
+  color: white
+}
+
+.cta.shop1 {
+  margin-top: 1rem;
 }
