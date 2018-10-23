@@ -2,10 +2,15 @@
 /* Universal styles */
 
 html {
-  font-family: "Verdana";
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
+
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
 
 /* Fonts used by Simple Feast = maison (1.255em) | Grubhub = graphik (14px) */
 
@@ -33,14 +38,18 @@ h3 {
   display: ;
   color: white;
   width: 10rem;
-  padding: 0.5rem;
-  padding: 0.75rem;
+  padding: 0.95rem;
   background-color: #3fa435;
   text-align: center;
   font-variant: ;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   padding: auto 0;
   font-weight: bolder;
+}
+
+.cta a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Header styles */
@@ -61,6 +70,7 @@ h3 {
   position: relative;
 }
 
+
 .menu a {
   padding: 1rem;
   color: black;
@@ -79,47 +89,62 @@ h3 {
 /* Banner styles */
 
 .banner {
-  background-image: url(../images/stock_images/banner_v1.jpg);
+  background-image: url(../images/stock_images/banner_v3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
   height: 40rem;
-  padding-top: 2rem;
-  padding-left: 5rem;
 }
 
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 22rem;
+  width: 25rem;
+  padding-top: 10%;
+  margin-left: 5%;
 }
 
 .text-block {
-  margin: ;
+  margin-top: 1rem;
   background-color: ;
   line-height: 1.2;
-  color: white
+  color: black;
 }
 
 .cta.shop1 {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-left: 5%;
+  border-radius: 50px;
 }
 
 /* Quotes section styles */
 
 .quotes {
   justify-content: space-around;
-  padding: 1rem 0;
+  padding: 0 0;
+  background-color: #3fa435;
+  height: 7rem;
+  align-items: center;
+  color: white;
 }
-
 
 .quote {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 10rem;
+  height: 4.5rem;
+  text-align: center;
+
 }
 
 .quote img {
-  width: 5rem;
+  width: 7rem;
+}
+
+ #volkskrant img {
+  width: 10rem;
 }
