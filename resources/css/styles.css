@@ -165,7 +165,41 @@ h4 {
 /* The big compare styles */
 
 .compare {
+  flex-direction: column;
   justify-content: space-around;
+  padding: 4rem 0;
+  background-color: rgb(232, 232, 227);
+}
+
+.compare-intro {
+  text-align: center;
+  line-height: 1.4;
+  color: ;
+  z-index: 1;
+}
+
+.tale {
+  display: flex;
+  align-items: center;
+}
+
+.row-one .time-slice {
+  margin-left: 5%;
+}
+
+
+.row-two .time-slice {
+  margin-left: 20%;
+}
+
+.row-three .time-slice {
+  margin-left: 35%;
+}
+
+.explainer {
+  width: 20rem;
+  margin-left: 2rem;
+  line-height: 1.4;
 }
 
 .time-slice {
@@ -176,7 +210,7 @@ h4 {
   justify-content: space-around;
   align-items: center;
   padding: 1rem 0;
-  margin-top: 5rem;
+  margin-top: 1rem;
   background-color: rgba(192,192,192, 0.2);
 }
 
@@ -193,9 +227,11 @@ h4 {
 .positive {
   color: #3fa435;
   font-variant: small-caps;
+  font-weight: bold;
 }
 
 .negative {
   color: red;
   font-variant: small-caps;
+  font-weight: bold;
 }
