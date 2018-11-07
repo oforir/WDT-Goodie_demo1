@@ -721,9 +721,9 @@ footer {
   overflow: hidden;
 }
 
-/*footer div {
+footer div {
   border:1px solid black;
-}*/
+}
 
 .ftr-legal-mobile {
   display: none;
@@ -748,21 +748,6 @@ footer {
   padding-right: 10%;
   color: white;
   padding-left: 2rem;
-}
-
-@media only screen and (max-width:1159px) {
-  .footer-left {
-    width: 55%;
-    padding-top: 2rem;
-    padding-left: 2%;
-  }
-
-  .footer-right {
-    width: 45%;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 2%;
-  }
 }
 
 .left-logos {
@@ -827,7 +812,6 @@ footer {
   padding-bottom: 0.25rem;
   font-weight: 900;
   color: black;
-
 }
 
 .footer-right span {
@@ -873,6 +857,21 @@ footer {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width:1159px) {
+  .footer-left {
+    width: 55%;
+    padding-top: 2rem;
+    padding-left: 2%;
+  }
+
+  .footer-right {
+    width: 45%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 2%;
+  }
+}
+
 @media only screen and (max-width: 895px) {
 
   #goodie-logo-white {
@@ -899,6 +898,7 @@ footer {
     font-size: 1.0rem;
 
 }
+
 }
 
 @media only screen and (max-width: 650px) {
